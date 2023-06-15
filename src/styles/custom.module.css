@@ -1,0 +1,56 @@
+.appbar {
+  background-color: #e6e6e6 !important;
+  width: 100% !important;
+}
+
+.toolbar {
+  display: flex !important;
+  justify-content: space-evenly !important;
+  align-items: center !important;
+}
+
+
+.buttontext {
+  @media (max-width: 600px) {
+    display: none !important;
+} 
+}
+
+.searchTextField {
+    background-color:azure;
+}
+
+
+.card {
+  margin: 10px !important;
+  width: 300 !important; 
+  border: 2px solid gray !important; 
+  border-radius: 8px !important;
+}
+
+.cardContentWithoutHover {
+  display: "flex" !important;
+  flex-direction: "column" !important;
+  align-items: "center" !important;
+  justify-content: "center" !important;
+  height: "150px" !important;
+  
+}
+
+.cardContentWithHover {
+  display: "flex" !important;
+  flex-direction: "column" !important;
+  align-items: "center" !important;
+  justify-content: "center" !important;
+  height: "150px" !important;
+  background-color: #e6e6e6  !important;
+}
+
+
+
+.cardText {
+  font-size: x-large !important;
+  font-weight: bold !important;
+}
+
+
