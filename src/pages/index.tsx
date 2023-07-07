@@ -22,6 +22,7 @@ import {
   setSelectedFlashcard,
   setTurkishText,
 } from "@/store/flashcardSlice";
+import EntrancePage from "@/components/EntrancePage";
 
 const FlashcardList = () => {
   const dispatch: AppThunkDispatch = useAppDispatch();
@@ -171,11 +172,6 @@ const FlashcardList = () => {
     }
   }, [previewFlashcard]);
 
-  /*  useEffect(() => {
-    // Code to execute when session changes
-    console.log("Session changed:", session);
-  }, [session]); */
-
   return (
     <div>
       <NavBar />
@@ -245,7 +241,9 @@ const FlashcardList = () => {
             handleDelete={handleDeleteFlashcard}
           />
         </>
-      ) : null}
+      ) : (
+        <EntrancePage />
+      )}
     </div>
   );
 };

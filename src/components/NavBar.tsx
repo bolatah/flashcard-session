@@ -150,7 +150,7 @@ const NavBar = () => {
                 dispatch(setFlashcards([]));
               }}
             >
-              Login / Sign in
+              Log in / Sign in
             </Button>
           )}
         </Toolbar>
